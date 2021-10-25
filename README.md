@@ -5,12 +5,12 @@
 
 
 - The Natality dataset is a relatively large dataset that has almost 138 million rows and 31 columns in which `weight_pounds` is the target - a continuous value - we train a model to predict, based on values in the other relevant feature columns. So, this is typically a **supervised regression problem**.
-- To complete this project, we separate the work into **six `Jupiter notebooks`**. Each notebook performs a main step in an ***End-to-end Machine Learning Project with a large dataset***:
+- To complete this project, we separate the work into **six `Jupiter notebooks`**. Each notebook performs a key step in an ***End-to-end Machine Learning Project with a large dataset***:
   - `1_explore_full_dataset.ipynb`: explores and visualizes the Natality dataset using BigQuery calls.
   - `2_prototype_model.ipynb`: uses BigQuery and Pandas to create a small subsample dataset and then uses this sub-dataset to develop a Deep-Wide-Cross Keras model locally.
   - `3_create_ML_datasets.ipynb`: performs data augmentation and preprocessing on the entire Natality dataset, then creates and exports the training/evaluation/testing datasets as CSV files by using two different tools: [Cloud Dataflow](https://cloud.google.com/dataflow) and [BigQuery](https://cloud.google.com/bigquery/).
   - `4_train_model_using_Cloud_AI_Platform`: trains the model at scale with hyperparameter tuning in [Google Cloud AI Platform](https://cloud.google.com/ai-platform/docs/technical-overview).
   - `5_serve_online_predictions_with_Cloud_AI_Platform.ipynb`: creates a model version resource in AI Platform that will use our model to serve predictions.
-  - `6_deploy_model_with_Flask.ipynb`: makes a [Flask](https://www.fullstackpython.com/flask.html) web form application to show how our models can interact with a web application.
+  - `6_deploy_model_with_Flask.ipynb`: makes a [Flask](https://www.fullstackpython.com/flask.html) web form application to show how our model can interact with a web application for the deployment.
 
 ***Hope you enjoy it!!!***
