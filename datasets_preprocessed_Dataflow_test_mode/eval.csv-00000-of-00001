@@ -1,0 +1,9 @@
+weight_pounds,is_male,mother_age,plurality,gestation_weeks,cigarette_use,alcohol_use
+6.0075966395,False,16,Single(1),41,Unknown,Unknown
+6.0075966395,Unknown,16,Single(1),41,Unknown,Unknown
+8.5318895394,True,20,Single(1),39,Unknown,Unknown
+8.5318895394,Unknown,20,Single(1),39,Unknown,Unknown
+8.50102482272,True,35,Single(1),40,false,false
+8.50102482272,Unknown,35,Single(1),40,false,false
+8.7303055752,True,35,Single(1),41,Unknown,Unknown
+8.7303055752,Unknown,35,Single(1),41,Unknown,Unknown

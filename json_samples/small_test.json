@@ -1,0 +1,2 @@
+{"is_male": "True", "mother_age": 26.0, "plurality": "Single(1)", "gestation_weeks": 39, "cigarette_use":"True","alcohol_use": "True"}
+{"is_male": "False", "mother_age": 29.0, "plurality": "Single(1)", "gestation_weeks": 38,"cigarette_use":"False","alcohol_use": "False"}
